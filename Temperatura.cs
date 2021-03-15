@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicios
+namespace Atividades
 {
-    class Ex11
+    class Temperatura
     {
         static void Main(string[] args)
         {
