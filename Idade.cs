@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjAula08032021
+namespace Atividades
 {
-    class Ex1
+    class Idade
     {
         static void Main(string[] args)
         {
