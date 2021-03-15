@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Atividades
 {
     class Program
     {
@@ -31,11 +31,11 @@ namespace ConsoleApplication1
             peso = Double.Parse(Console.ReadLine());
 
             if (sexo == "masculino")
-            pesoIdealM = (72.7 * altura) - 58
+            pesoIdealM = (72.7 * altura) - 58;
             Console.WriteLine("Seu peso ideal é: " + pesoIdealM);
 
             else if (sexo == "feminino")
-            pesoIdealF = (62.1 * altura) - 44.7
+            pesoIdealF = (62.1 * altura) - 44.7;
             Console.WriteLine("Seu peso ideal é: " + pesoIdealF);
 
             else
