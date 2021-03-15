@@ -25,11 +25,11 @@ namespace projeto
             }
 
             Console.Write("Informe o terceiro valor: "); 
-            n = Convert.ToInt32(Console.ReadLine());
+            m = Convert.ToInt32(Console.ReadLine());
             
-            if (n > maior)
+            if (m > maior)
             {
-                maior = n;
+                maior = m;
             }
 
             Console.Write("O maior valor é: " +maior);
