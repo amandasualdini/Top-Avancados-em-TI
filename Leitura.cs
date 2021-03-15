@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicios
+namespace Atividades
 {
-    class Ex10
+    class Salario
     {
         static void Main(string[] args)
         {
