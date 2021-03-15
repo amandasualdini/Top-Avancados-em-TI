@@ -4,19 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace percentualCarro {
+namespace Atividades {
     
     public static class Carro {
         
         public static object carro() {
             Console.WriteLine("Digite o custo em R$: ");
             
-            var custo = Console.ReadLine();
-            var distribuidor = custo * (28 / 100);
-            var imposto = custo * (45 / 100);
-            var valorFinal = custo + distribuidor + imposto;
+            double custo = Console.ReadLine();
+            double distribuidor = custo * (28 / 100);
+            double imposto = custo * (45 / 100);
+            double valorFinal = custo + distribuidor + imposto;
             
-            Console.WriteLine("Valor Final R$: " valorFinal);
+             Console.WriteLine(" O Custo Final Ao Consumidor É: R$ " + valorFinal.ToString());
+
+            Console.ReadKey();
         }
                
     }
